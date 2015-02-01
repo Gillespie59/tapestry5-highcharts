@@ -1,6 +1,8 @@
-HighCharts Component Library for Tapestry 5.3.3 and Tapestry5-jQuery 3.3.3
+[![Build Status](https://travis-ci.org/Gillespie59/tapestry5-highcharts.svg?branch=master)](https://travis-ci.org/Gillespie59/tapestry5-highcharts)
 
-# How to write a custom graph
+# HighCharts Component Library for Tapestry 5.3.3 and Tapestry5-jQuery 3.3.3
+
+## How to write a custom graph
 This component library only contains one basic Highcharts component. You can normally do everything with this simple component. You can also create your own HighCharts component, by extending this simple implementation. Thenonly thing important, is to override the getComponentOptions method, that will return the JSON object need for the initialization of your chart. 
 
 Here is a new BarChart component extending the basic AbstractHighCharts class
